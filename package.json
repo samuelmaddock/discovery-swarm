@@ -4,11 +4,18 @@
   "description": "A network swarm that uses discovery-channel to find peers",
   "main": "index.js",
   "dependencies": {
+    "async": "^2.6.0",
     "buffer-equals": "^1.0.3",
     "connections": "^1.4.2",
     "debug": "^2.4.5",
     "discovery-channel": "^5.5.1",
     "length-prefixed-message": "^3.0.3",
+    "libp2p": "^0.20.4",
+    "libp2p-kad-dht": "^0.10.0",
+    "libp2p-mplex": "^0.7.0",
+    "libp2p-secio": "^0.10.0",
+    "libp2p-tcp": "^0.12.0",
+    "peer-info": "^0.14.1",
     "pump": "^1.0.1",
     "to-buffer": "^1.0.1"
   },
